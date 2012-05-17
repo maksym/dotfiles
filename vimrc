@@ -19,6 +19,9 @@ Bundle 'widox/vim-buffer-explorer-plugin'
 Bundle 'Lucius'
 Bundle 'tpope/vim-surround'
 Bundle 'mineiro/vim-latex'
+Bundle 'mileszs/ack.vim'
+Bundle 'vim-scripts/LustyJuggler'
+Bundle 'vim-scripts/taglist.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -39,3 +42,8 @@ set nu
 set numberwidth=3
 map <F10> :NERDTreeToggle<CR>
 set fileencodings=utf8,cp1251
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+nnoremap <silent> <F8> :TlistToggle<CR>
+nnoremap <silent> <C-F8> :TlistHighlightTag<CR>
+set hlsearch
+set incsearch
