@@ -14,14 +14,14 @@ Bundle 'tpope/vim-haml'
 Bundle 'pangloss/vim-javascript'
 Bundle 'tsaleh/vim-supertab'
 Bundle 'mrmargolis/dogmatic.vim'
-Bundle 'vim-scripts/dbext.vim'
+Bundle 'dbext.vim'
 Bundle 'widox/vim-buffer-explorer-plugin'
 Bundle 'Lucius'
 Bundle 'tpope/vim-surround'
 Bundle 'mineiro/vim-latex'
 Bundle 'mileszs/ack.vim'
-Bundle 'vim-scripts/LustyJuggler'
-Bundle 'vim-scripts/taglist.vim'
+Bundle 'LustyJuggler'
+Bundle 'taglist.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -47,3 +47,15 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <C-F8> :TlistHighlightTag<CR>
 set hlsearch
 set incsearch
+command Ts %s/\s\+$
+autocmd BufWritePre *.{rb,haml,coffee,js,lua,yml} call StripTrailingWhite()
+function! StripTrailingWhite()
+	let l:winview = winsaveview()
+	silent! %s/\s\+$//
+	call winrestview(l:winview)
+endfunction
+let g:dbext_default_type = 'PGSQL'
+let g:dbext_default_host = 'localhost'
+let g:dbext_default_user = 'postgres'
+let g:dbext_default_passwd = 'postgres'
+let g:dbext_default_dbname = 'webmedapp'
