@@ -9,6 +9,7 @@ ln -s ~/.dotfiles/rc.lua ~/.config/awesome/rc.lua
 ln -s ~/.dotfiles/theme.lua ~/.config/awesome/default/theme.lua
 
 echo 4. SHELL
+ln -s ~/.dotfiles/zshrc ~/.zshrc
 
 echo 5. TERMINAL EMULATOR
 

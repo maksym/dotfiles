@@ -10,8 +10,6 @@ sudo apt-get install awesome awesome-extra
 
 echo 4. SHELL
 sudo apt-get install zsh
-chsh -s /usr/bin/zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 echo 5. TERMINAL EMULATOR
 sudo apt-get install guake
@@ -20,7 +18,7 @@ echo 6. BROWSER
 sudo apt-get install chromium-browser
 
 echo 7. VIM
-sudo apt-get install xfonts-terminus ruby exuberant-ctags vim-nox
+sudo apt-get install xfonts-terminus ruby ruby-dev exuberant-ctags vim-nox
 
 echo 8. SSH
 sudo apt-get install openssh-server
