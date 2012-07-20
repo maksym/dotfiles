@@ -29,3 +29,7 @@ restore backup
 https://rvm.io//
 
 11. PROJECT
+download project
+bundle
+migrations
+puppet apply
