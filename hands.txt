@@ -23,6 +23,7 @@ https://github.com/wincent/Command-T#readme
 copy /etc/hosts ~/.ssh
 
 9. DATABASE
+set postgres password
 restore backup
 
 10. RVM
