@@ -29,4 +29,4 @@ sudo apt-get install postgresql postgresql-contrib pgadmin3
 echo 10. RVM
 
 echo 11. PROJECT
-sudo apt-get install puppet
+sudo apt-get install puppet nginx

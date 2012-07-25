@@ -74,10 +74,7 @@ theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/defau
 theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_active.png"
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { "awsetbg /home/max/.config/awesome/default/background.png" }
---theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/default/ubuntu-ass.jpg" }
---theme.wallpaper_cmd = { "awsetbg /home/max/.config/awesome/default/wallpaper.jpg" }
---theme.wallpaper_cmd = { "awsetbg /home/max/.config/awesome/default/100_8358.JPG" }
+theme.wallpaper_cmd = { "awsetbg -c /usr/share/awesome/themes/default/background.png" }
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
