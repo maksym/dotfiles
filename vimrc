@@ -22,6 +22,7 @@ Bundle 'mineiro/vim-latex'
 Bundle 'mileszs/ack.vim'
 Bundle 'LustyJuggler'
 Bundle 'taglist.vim'
+Bundle 'jc00ke/thor.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -50,12 +51,13 @@ set incsearch
 command Ts %s/\s\+$
 autocmd BufWritePre *.{rb,haml,coffee,js,lua,yml} call StripTrailingWhite()
 function! StripTrailingWhite()
-	let l:winview = winsaveview()
-	silent! %s/\s\+$//
-	call winrestview(l:winview)
+let l:winview = winsaveview()
+silent! %s/\s\+$//
+call winrestview(l:winview)
 endfunction
 let g:dbext_default_type = 'PGSQL'
 let g:dbext_default_host = 'localhost'
 let g:dbext_default_user = 'postgres'
 let g:dbext_default_passwd = 'postgres'
 let g:dbext_default_dbname = 'webmedapp'
+map <F7> mzgg=G`z<CR>
