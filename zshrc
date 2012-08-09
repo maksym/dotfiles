@@ -13,6 +13,7 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rake='noglob rake'
+alias git_obsolete_local="git branch --merged master | grep -v 'master$' | xargs git branch -d"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
