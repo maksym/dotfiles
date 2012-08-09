@@ -1,0 +1,36 @@
+1. UPDATES
+
+2. GENERAL
+http://www.skype.com
+
+3. WINDOW MANAGER
+
+4. SHELL
+chsh -s /usr/bin/zsh
+https://github.com/robbyrussell/oh-my-zsh/
+
+5. TERMINAL EMULATOR
+
+6. BROWSER
+connect to google account
+chrome google talk plugin
+
+7. VIM
+https://github.com/gmarik/vundle/
+https://github.com/wincent/Command-T#readme
+
+8. SSH
+copy /etc/hosts ~/.ssh
+
+9. DATABASE
+set postgres password
+restore backup
+
+10. RVM
+https://rvm.io//
+
+11. PROJECT
+download project
+bundle
+migrations
+puppet apply
