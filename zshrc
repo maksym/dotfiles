@@ -33,7 +33,7 @@ alias git_obsolete_local="git branch --merged master | grep -v 'master$' | xargs
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git thor)
 
 source $ZSH/oh-my-zsh.sh
 
