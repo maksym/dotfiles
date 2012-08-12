@@ -14,6 +14,8 @@ ZSH_THEME="robbyrussell"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rake='noglob rake'
 alias git_obsolete_local="git branch --merged master | grep -v 'master$' | xargs git branch -d"
+alias start_radio="mplayer -playlist http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-32k.m3u"
+alias stop_radio="killall mplayer"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
