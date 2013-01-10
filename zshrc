@@ -44,3 +44,12 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 [[ -s "/home/max/.rvm/scripts/rvm" ]] && source "/home/max/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+PROMPT='%{$fg[cyan]%}| %{$reset_color%}%c %{$fg[cyan]%}|$(git_prompt_info)%{$reset_color%} '
+
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX=" %{$fg[cyan]%}|"
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[cyan]%}| %{$fg[green]%}+%{$fg[yellow]%}-"
+ZSH_THEME_GIT_PROMPT_CLEAN=""
+unsetopt correct_all
+alias tmux="tmux -2"

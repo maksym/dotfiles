@@ -3,7 +3,7 @@ echo 1. UPDATES
 sudo apt-get dist-upgrade
 
 echo 2. GENERAL
-sudo apt-get install git curl htop recoverdm squashfs-tools cpufreqd cpufrequtils thunar virtualbox
+sudo apt-get install git curl htop recoverdm squashfs-tools cpufreqd cpufrequtils thunar virtualbox tmux
 
 echo 3. WINDOW MANAGER
 sudo apt-get install awesome awesome-extra

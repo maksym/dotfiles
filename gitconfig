@@ -3,3 +3,5 @@
 	email = bodnarchuk@gmail.com
 [color]
 	ui = auto
+[core]
+	editor = vim
