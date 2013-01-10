@@ -23,6 +23,9 @@ Bundle 'mileszs/ack.vim'
 Bundle 'LustyJuggler'
 Bundle 'taglist.vim'
 Bundle 'jc00ke/thor.vim'
+Bundle 'artemave/slowdown.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'rosenfeld/conque-term'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -61,3 +64,5 @@ let g:dbext_default_user = 'postgres'
 let g:dbext_default_passwd = 'postgres'
 let g:dbext_default_dbname = 'webmedapp'
 map <F7> mzgg=G`z<CR>
+nmap <silent> <C-S> :ConqueTerm zsh<CR>
+let g:slow_down_max_delay_ms = 200 " default is 200
