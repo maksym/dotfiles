@@ -25,3 +25,6 @@ echo 9. DATABASE
 echo 10. RVM
 
 echo 11. PROJECT
+
+echo 12. TMUX
+ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
