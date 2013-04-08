@@ -26,6 +26,7 @@ Bundle 'jc00ke/thor.vim'
 Bundle 'artemave/slowdown.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'rosenfeld/conque-term'
+Bundle 'mattn/zencoding-vim.git'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
